@@ -1,3 +1,3 @@
 export default function Comments() {
-    return <></>
+  return <></>
 }
