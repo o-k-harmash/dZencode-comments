@@ -1,7 +1,7 @@
 import ApiError from "@/utils/apiError"
 import { apiService } from "."
-import type { ICommentList, SortType } from "@/types/Comment"
-import type { IComment } from "@/types/Comment"
+import type { ICommentList, SortType } from "@/types/comment"
+import type { IComment } from "@/types/comment"
 
 export async function apiGetCommentList(
   page: number,
