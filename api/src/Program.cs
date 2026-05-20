@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>
     {
         policy
-            .WithOrigins("http://185.159.75.187:8000")
+            .WithOrigins("http://194.37.80.112:8000")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
